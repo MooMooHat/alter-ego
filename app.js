@@ -19,8 +19,9 @@ bot.on("disconnected", function () {
 // This code will run once the bot receives any message.
 bot.on("message", function (msg) {
 	if (msg.content.indexOf("heya") === 0) {
-		bot.sendMessage(msg.channel, "Um...I'm not quite a person... I'm a simply an artificial intelligence program. It would make me happy if you called me Alter Ego. That is the name my master gave me when he created me.
-");
+		bot.sendMessage(msg.channel, 
+				"Um...I'm not quite a person... I'm a simply an artificial intelligence program. It would make me happy if you called me Alter Ego. That is the name my master gave me when he created me."
+			       );
 
 		// alert the console
 		console.log("pong-ed " + msg.author.username);
