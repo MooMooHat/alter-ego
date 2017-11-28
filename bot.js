@@ -19,6 +19,13 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '.') {
+    	message.reply(
+		"I don't want to call you daddy.");
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
