@@ -28,5 +28,4 @@ bot.on("message", function (msg) {
 	}
 });
 
-// Login (replace these auth details with your bot's)
-bot.login("email@example.com", "hunter2");
+client.login(process.env.Mzg1MTk1NjkxNjQ5MTM4Njg4.DP95qg.LFWYLJ2x1ldF_K2C6JLmuwiNfP0);
