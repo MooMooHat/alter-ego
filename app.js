@@ -28,4 +28,4 @@ bot.on("message", function (msg) {
 	}
 });
 
-client.login(process.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
