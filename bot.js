@@ -7,8 +7,8 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'heya') {
-    	message.reply("Um...I'm not quite a person... I'm a simply an artificial intelligence program. It would make me happy if you called me Alter Ego. That is the name my master gave me when he created me.
-		      ");
+    	message.reply(
+		"Um...I'm not quite a person... I'm a simply an artificial intelligence program. It would make me happy if you called me Alter Ego. That is the name my master gave me when he created me.");
   	}
 });
 
