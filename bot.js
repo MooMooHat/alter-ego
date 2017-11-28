@@ -21,7 +21,7 @@ client.on('message', message => {
 
 client.on('message', msg => {
   if (msg.content === 'good night alter ego') {
-    msg.reply('Good night!');
+    msg.reply('take care and sleep well... Good night!');
   }
 });
 
